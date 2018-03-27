@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "aniron";
+    src: local("/font/aniron/anicm.ttf");
+}
+
+@font-face {
+    font-family: "tngan";
+    src: local("/font/tengwar/tngan.ttf");
+}
+
+a {
+    font-family: 'aniron';
+}
+
+p {
+    font-family: 'aniron';
+}
+
+h1 {
+    font-family: 'aniron';
+}
+
+h2 {
+    font-family: 'aniron';
+}
+
+h3 {
+    font-family: 'aniron';
+}
+
+h5 {
+    font-family: 'aniron';
+    color: beige;
+}
+
+a {
+    font-family: 'tngan';
+}
+
+body {
+    background-image: url(https://zupimages.net/up/18/09/buog.png);
+}
+
+.nav-link {
+    font-size: 2em;
+    font-family: 'aniron';
+    color: gray;
+}
+
+.nav-link:hover {
+    color: rgb(255, 115, 0);
+}
+
+.navbar {
+    background-color: rgb(255, 115, 0);
+}
+
+.nav-menu {
+    font-size: 2em;
+    font-family: 'aniron';
+    color: white !important;
+}
+
+.carousel-caption {
+    top: 40%;
+    bottom: auto;
+}
+
+.card-img-top {
+    opacity: 0.4;
+    border: 5px solid black;
+}
+
+.card-img-top:hover {
+    opacity: 1;
+}
+
+.card:hover .reward {
+    visibility: hidden;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.reward {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    padding: 0 45px;
+    line-height: 45px;
+    align-content: center;
+    right: 5%;
+    top: 10%;
+    font-family: 'aniron';
+    font-size: 2em;
+}
+
+.card-title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    font-size: 4em;
+    opacity: 1;
+}
+
+.card-title-2 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    font-size: 4em;
+    opacity: 0;
+    color: orangered;
+}
+
+.card:hover .card-title-2 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transition: 1s;
+    font-size: 3em;
+    opacity: 1;
+}
+
+.card:hover .card-title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    right: 0%;
+    top: 70%;
+    transition: 1s;
+    font-size: 2em;
+    opacity: 1;
+    z-index: 1000;
+}
+
+.card-text {
+    color: white;
+}
+
+span {
+    color: orange;
+    font-size: 2em;
+}
+
+.jumbotron {
+    background-color: black;
+    margin-top: 5%;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.coin {
+    float: right;
+}
+
+.jumbo_btn {
+    margin-left: 40%;
+    color: rgb(255, 115, 0);
+}
